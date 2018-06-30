@@ -1,4 +1,5 @@
 import { Bonbons } from "@bonbons/core";
+// const { Bonbons } = require("@bonbons/core");
 import { DEPLOY_MODE, ENV_MODE } from "@bonbons/di";
 import { APIController } from "./src/controller/api";
 import { IndexController } from "./src/controller";
