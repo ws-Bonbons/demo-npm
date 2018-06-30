@@ -1,0 +1,41 @@
+{
+  "name": "demo-npm",
+  "version": "1.0.0",
+  "description": "@bonbons/demo-npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ws-Bonbons/demo-npm.git"
+  },
+  "author": "bws",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ws-Bonbons/demo-npm/issues"
+  },
+  "homepage": "https://github.com/ws-Bonbons/demo-npm#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.28",
+    "@types/node": "^10.3.2",
+    "ts-loader": "^4.4.1",
+    "ts-node": "^6.1.1",
+    "tsconfig-paths": "^3.4.0",
+    "typescript": "^2.9.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "@bonbons/contracts": "^1.0.3",
+    "@bonbons/controllers": "^1.0.0",
+    "@bonbons/core": "^1.0.0",
+    "@bonbons/decorators": "^1.0.0",
+    "@bonbons/di": "^1.0.2",
+    "@bonbons/options": "^1.0.1",
+    "@bonbons/plugins": "^1.0.1",
+    "@bonbons/utils": "^1.0.4"
+  }
+}

@@ -1,0 +1,34 @@
+import { BaseController } from "@bonbons/controllers";
+import { Controller, Route, Method } from "@bonbons/decorators";
+import { ScopeContract } from "../service/scope";
+import { AppService } from "../service/app";
+
+@Controller("api")
+export class APIController extends BaseController {
+
+  constructor(private scope: ScopeContract, private app: AppService) {
+    super();
+  }
+
+  @Method("GET")
+  @Route("/message")
+  public Index() {
+    return this.toJSON({ code: 0, msg: "success" });
+  }
+
+  @Method("GET")
+  @Route("/check")
+  public Check() {
+    return this.toJSON({
+      scope: this.scope.show(),
+      singleton: this.app.show()
+    });
+  }
+
+  @Method("GET")
+  @Route("/error")
+  public Error() {
+    throw new Error("wgnm!!!!!!@@@@");
+  }
+
+}
