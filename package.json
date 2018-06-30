@@ -31,7 +31,7 @@
   "dependencies": {
     "@bonbons/contracts": "^1.0.6-beta",
     "@bonbons/controllers": "^1.0.6-beta",
-    "@bonbons/core": "^1.0.6-beta",
+    "@bonbons/core": "^1.0.7-beta",
     "@bonbons/decorators": "^1.0.6-beta",
     "@bonbons/di": "^1.0.6-beta",
     "@bonbons/options": "^1.0.6-beta",
