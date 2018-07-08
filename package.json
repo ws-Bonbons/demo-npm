@@ -29,13 +29,13 @@
     "webpack-cli": "^3.0.3"
   },
   "dependencies": {
-    "@bonbons/contracts": "latest",
-    "@bonbons/controllers": "latest",
-    "@bonbons/core": "latest",
-    "@bonbons/decorators": "latest",
-    "@bonbons/di": "latest",
-    "@bonbons/options": "latest",
-    "@bonbons/plugins": "latest",
-    "@bonbons/utils": "latest"
+    "@bonbons/contracts": "^1.1.0",
+    "@bonbons/controllers": "^1.1.1",
+    "@bonbons/core": "1.1.1",
+    "@bonbons/decorators": "^1.1.1",
+    "@bonbons/di": "^1.1.0",
+    "@bonbons/options": "^1.1.0",
+    "@bonbons/plugins": "^1.1.1",
+    "@bonbons/utils": "^1.1.0"
   }
 }
