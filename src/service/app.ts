@@ -1,4 +1,4 @@
-import { Injectable } from "@bonbons/decorators";
+import { Injectable } from "@bonbons/core";
 
 @Injectable()
 export class AppService {

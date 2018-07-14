@@ -1,4 +1,4 @@
-import { Injectable } from "@bonbons/decorators";
+import { Injectable } from "@bonbons/core";
 
 export abstract class ScopeContract {
   abstract show(): string;
